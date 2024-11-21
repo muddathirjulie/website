@@ -40,7 +40,7 @@
     height: 250px; /* Increase the height for better visibility */
     object-fit: contain; /* Ensure the entire image fits without cropping */
     background-color: #1c2833; /* Add a background color for a cleaner look if images have transparency */
-    border-bottom: 2px solid #1abc9c; /* Accent border for separation */
+    border-bottom: 2px solid #ff6f61; /* Accent border for separation */
   }
   
   
