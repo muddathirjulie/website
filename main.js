@@ -81,3 +81,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const contactForm = document.querySelector(".contact-form");
   // Optional: Add custom behavior for the contact form here
 });
+
+  document.getElementById("current-year").textContent = new Date().getFullYear();
+
