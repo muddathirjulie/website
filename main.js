@@ -84,3 +84,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.getElementById("current-year").textContent = new Date().getFullYear();
 
+//Skills Section 
+function showDescription(skillId) {
+  // Hide all descriptions
+  const descriptions = document.querySelectorAll('.description-content');
+  descriptions.forEach(function (description) {
+    description.classList.remove('active');
+  });
+
+  // Show the selected description
+  const activeDescription = document.getElementById(skillId);
+  if (activeDescription) {
+    activeDescription.classList.add('active');
+  }
+}
+

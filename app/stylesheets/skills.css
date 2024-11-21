@@ -1,0 +1,114 @@
+/* General Styles */
+.skills-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e2a3b; /* Dark Blue background for consistency */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Softer shadow */
+    color: white; /* White text to ensure readability */
+  }
+  
+  .skills-section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #f1c40f; /* Bright Yellow for consistency with home section */
+  }
+  
+  /* Single Column Layout for Skills List and Description */
+  .skills-container {
+    display: flex;
+    flex-direction: column; /* Align everything in a single column */
+    gap: 20px;
+  }
+  
+  /* Skill List Styles */
+  .skills-list {
+    background: #34495e; /* Darker background for skill list */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid #7f8c8d; /* Softer border */
+    border-radius: 5px;
+    text-align: center;
+    background: #95a5a6; /* Muted background for skills */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    color: white; /* Ensures text stands out */
+  }
+  
+  .skill:hover {
+    background-color: #ff6f61; /* Vibrant coral on hover, for consistency */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    color: white; /* Ensures text remains readable on hover */
+  }
+  
+  /* Skill Description Area */
+  .skills-description {
+    background: #2c3e50; /* Darker background for descriptions */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .description-content {
+    display: none; /* Initially hidden */
+  }
+  
+  .description-content h3 {
+    font-size: 1.8em;
+    color: #ff6f61; /* Vibrant coral for headings */
+  }
+  
+  .description-content p {
+    font-size: 1.2em;
+    color: #ecf0f1; /* Lighter text for descriptions */
+    margin-top: 10px;
+  }
+  
+  /* Active Description Styles */
+  .description-content.active {
+    display: block;
+    animation: fadeIn 0.4s ease;
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 992px) {
+    .skills-section {
+      padding: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .skills-section {
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .skills-section {
+      padding: 5px;
+    }
+  }
+  

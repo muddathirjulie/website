@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="app/stylesheets/contact.css" />
     <link rel="stylesheet" href="app/stylesheets/timeline.css" />
     <link rel="stylesheet" href="app/stylesheets/projects.css" />
+    <link rel="stylesheet" href="app/stylesheets/skills.css" />
     <link rel="stylesheet" href="app/stylesheets/footer.css" />
     <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
     <link
@@ -220,6 +221,55 @@
         </div>
       </div>
     </section>
+
+    <div class="skills-section">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <!-- Skill List in a Single Column -->
+        <div class="skills-list">
+          <div class="skill" onclick="showDescription('html')">HTML</div>
+          <div class="skill" onclick="showDescription('css')">CSS</div>
+          <div class="skill" onclick="showDescription('javascript')">
+            JavaScript
+          </div>
+          <div class="skill" onclick="showDescription('wordpress')">
+            WordPress
+          </div>
+        </div>
+
+        <!-- Skill Description Area -->
+        <div class="skills-description">
+          <div id="html" class="description-content">
+            <h3>HTML</h3>
+            <p>
+              Strong understanding of semantic HTML for creating structured web
+              pages and layouts.
+            </p>
+          </div>
+          <div id="css" class="description-content">
+            <h3>CSS</h3>
+            <p>
+              Proficient in creating responsive designs, animations, and styling
+              web components.
+            </p>
+          </div>
+          <div id="javascript" class="description-content">
+            <h3>JavaScript</h3>
+            <p>
+              Experienced in modern JavaScript, ES6+, and frameworks for dynamic
+              web applications.
+            </p>
+          </div>
+          <div id="wordpress" class="description-content">
+            <h3>WordPress</h3>
+            <p>
+              Skilled in building and customizing WordPress websites, themes,
+              and plugins.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <section class="contact" id="contact">
       <h1>Contact Me</h1>
