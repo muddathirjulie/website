@@ -1,7 +1,7 @@
 /* Timeline Section */
 .timeline {
   padding: 60px 20px;
-  background-color: #1e2a3b; /* Dark background */
+  background-color: #1f3a4d; /* Dark background */
   color: white; /* Set text to white for better visibility */
 }
 
@@ -9,7 +9,7 @@
   font-size: 36px;
   text-align: center;
   margin-bottom: 30px;
-  color: #f1c40f; /* Bright yellow header */
+  color: #ff6f61; /* Bright yellow header */
 }
 
 /* Timeline container */
@@ -27,21 +27,33 @@
   top: 0;
   bottom: 0;
   width: 4px;
-  background: #f1c40f; /* Bright yellow timeline */
+  background: #ff6f61; /* Bright yellow timeline */
   transform: translateX(-50%);
   z-index: 1;
 }
 
 /* Timeline Event */
+/* Coral HR styling */
+.coral-divider {
+  border: 0;
+  height: 4px;
+  background-color: #ff6f61; /* Coral color */
+  width: 500px;
+  margin: 10px auto; /* Center the HR below the H2 */
+}
+
+/* White border around timeline items */
 .timeline .timeline-item {
   position: relative;
   margin: 20px 0;
   padding: 20px;
   border-radius: 10px;
+  border: 2px solid white; /* Add white border */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: #22344e; /* Dark blue event background */
   z-index: 2;
 }
+
 
 /* Event position */
 .timeline .timeline-item.left {
@@ -62,7 +74,7 @@
   top: 50%;
   width: 20px;
   height: 20px;
-  background: #f1c40f; /* Bright yellow marker */
+  background: #ff6f61; /* Bright yellow marker */
   border-radius: 50%;
   z-index: 3;
   transform: translateY(-50%);
