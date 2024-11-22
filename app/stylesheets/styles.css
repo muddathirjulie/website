@@ -33,7 +33,7 @@ body {
 
 .home h2 {
   font-size: 32px;
-  color: #f1c40f; /* Bright Yellow */
+  color: #ff8a7a; /* Bright Yellow */
   margin-bottom: 10px;
 }
 
@@ -47,7 +47,7 @@ body {
   display: inline-block;
   margin-top: 20px;
   padding: 15px 30px;
-  background-color: #ff8c00; /* Bright Orange */
+  background-color: #ff6f61; /* Bright Orange */
   color: white;
   border-radius: 5px;
   font-size: 18px;
