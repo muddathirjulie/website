@@ -44,21 +44,21 @@ body {
 }
 
 .nav-links a:hover {
-  color: #ff8c00; /* Orange hover effect */
+  color: #ff6f61; /* Orange hover effect */
   background-color: rgba(255, 140, 0, 0.2); /* Subtle background on hover */
 }
 
 /* Logo */
 .logo {
   font-size: 28px; /* Larger font size for the logo */
-  color: #ff8c00; /* Orange logo */
+  color: #ff8c00;
   font-weight: bold;
   margin-left: auto; /* Pushes the logo to the left */
   transition: color 0.3s ease; /* Smooth color change on hover */
 }
 
 .logo:hover {
-  color: #f39c12; /* Slightly lighter orange on hover */
+  color: #ff8a7a; /* Slightly lighter orange on hover */
 }
 
 /* Hamburger Button */
